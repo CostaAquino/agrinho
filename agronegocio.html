@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agronegócio Brasileiro</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f3f7f2;
+      color: #2e3a23;
+      line-height: 1.6;
+    }
+
+    header {
+    background: linear-gradient(135deg, #40940800 0%, #ecce5700 100%), 
+                  url('https://terramagna.com.br/wp-content/uploads/2023/01/Agronomo-folha-soja-agronegocio-no-brasil-vantagens-e-desvantagens.jpg.webp');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 20px 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin: 0 0 20px;
+      font-weight: 700;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    header p {
+      font-size: 1.4rem;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      font-weight: 400;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn {
+      background-color: #2e3a23;
+      color: #f1c40f;
+      padding: 14px 36px;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      box-shadow: 0 8px 15px rgba(46, 58, 35, 0.3);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #f1c40f;
+      color: #2e3a23;
+      cursor: pointer;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto 80px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      font-size: 2.4rem;
+      color: #4a6f28;
+      border-bottom: 3px solid #a7c957;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1.15rem;
+      color: #465b2f;
+      max-width: 800px;
+    }
+
+    .stats-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      flex: 1 1 250px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      color: #a7c957;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .stat-label {
+      font-size: 1.2rem;
+      color: #6b793b;
+    }
+
+    footer {
+      background-color: #2e3a23;
+      color: #a7c957;
+      text-align: center;
+      padding: 25px 20px;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      section h2 {
+        font-size: 1.9rem;
+      }
+
+      .stat-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agronegócio Brasileiro</h1>
+    <p>Força, inovação e sustentabilidade para alimentar o mundo com o melhor do Brasil.</p>
+    <a href="#stats" class="btn">Conheça os Números</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Importância para a Economia</h2>
+      <p>Importância Econômica:
+O agronegócio contribui de forma notável para o crescimento econômico do país, com uma participação significativa no PIB e nas exportações. Em 2022, o setor representou 25% do PIB brasileiro e mais de 233 milhões de toneladas de produtos agropecuários foram exportados. </p>
+    </section>
+
+    <section>
+      <h2>Inovação e Tecnologia</h2>
+      <p>O setor tem se modernizado, incorporando novas tecnologias, como a Agricultura 4.0, que utiliza máquinas mais modernas, drones, robôs e veículos autônomos com sensores, permitindo maior precisão e eficiência nas operações. </p>
+    </section>
+
+    <section>
+      <h2>Tipos de produtores</h2>
+      <p>O agronegócio brasileiro é composto por produtores de pequeno, médio e grande porte, com destaque para a agricultura familiar e a produção de commodities como soja, milho e algodão.  </p>
+    </section>
+
+     <section>
+      <h2>Cadeia de produção</h2>
+      <p>O agronegócio envolve uma cadeia de produção que interliga a agricultura, a pecuária, a indústria e o comércio, desde a produção de sementes e adubos até a comercialização dos produtos finais.   </p>
+    </section>
+
+    <section id="stats">
+      <h2>Números do Agronegócio Brasileiro</h2>
+      <div class="stats-container">
+        <div class="stat-card">
+          <div class="stat-number" data-target="350">0</div>
+          <div class="stat-label">Milhões de Toneladas de Soja Produzidas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="130">0</div>
+          <div class="stat-label">Milhões de Cabeças de Gado</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="90">0</div>
+          <div class="stat-label">Milhões de Toneladas de Milho</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Bilhões de Reais em Exportações</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Agronegócio Brasileiro. Desenvolvido com paixão pelo campo e pela inovação.
+  </footer>
+
+  <script>
+    // Animate stats numbers counting up
+    const counters = document.querySelectorAll('.stat-number');
+
+    counters.forEach(counter => {
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+        const increment = target / 200;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(updateCount, 15);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCount();
+    });
+  </script>
+</body>
+</html>
+
+```
